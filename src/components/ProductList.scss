@@ -1,0 +1,16 @@
+.product-list {
+    width: 100%;
+    border-collapse: collapse;
+    th, td {
+      padding: 10px;
+      text-align: center;
+      border-bottom: 1px solid #1c8894;
+      border: 1px solid #1c8894;
+      background-color: lightgrey;
+    }
+    th {
+      background-color: #1c8894;
+      color: white;
+    }
+  }
+  

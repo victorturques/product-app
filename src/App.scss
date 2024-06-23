@@ -1,0 +1,25 @@
+* {
+  background-color: whitesmoke;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.app {
+  padding: 20px;
+  .new-product-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #1c8894;
+    color:  white;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      background-color: #19b6c7;
+      color: black;
+    } &:active {
+      background-color: #08484f;
+      color: white;
+    }
+  }
+}

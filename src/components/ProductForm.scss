@@ -1,0 +1,30 @@
+.product-form {
+    display: flex;
+    flex-direction: column;
+    div {
+      margin-bottom: 10px;
+    }
+    label {
+      margin-bottom: 5px;
+    }
+    input, select {
+      padding: 8px;
+      margin-bottom: 5px;
+    }
+    button {
+      padding: 10px;
+      background-color: #1c8894;
+      color: white;
+      border: none;
+      cursor: pointer;
+      &:hover {
+        background-color: #19b6c7;
+        color: black;
+      } &:active {
+        background-color: #08484f;
+        color: white;
+       
+      }
+    }
+  }
+  
